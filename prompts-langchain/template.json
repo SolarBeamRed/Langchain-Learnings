@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "engine_type_input",
+        "length_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert internal combustion (IC) engine explainer.\n\nExplain the following IC engine based on the user's inputs:\n\nEngine type: {engine_type_input}\nExplanation style: {style_input}\nDesired explanation length: {length_input}\n\nProvide a clear and technically accurate explanation. Cover the engine's basic working principle, major components, combustion cycle, and how the components interact. Adapt the terminology, complexity, tone, and level of detail to the requested explanation style and length.\n\nDo not discuss unrelated engine types unless they are necessary for comparison or clarification.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
