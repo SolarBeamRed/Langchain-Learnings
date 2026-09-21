@@ -1,0 +1,19 @@
+{
+    "title": "car_review_schema",
+    "description": "schema for structured output extraction of car reviews",
+    "type": "object",
+    "properties": {
+        "car_model": {
+            "type": ["string", "null"],
+            "description": "Exact car model"
+        },
+        "car_type": {
+            "type": ["string", "null"],
+            "description": "Car type, such as Muscle, Sports, Sedan etc'"
+        },
+        "highlights": {
+            "type": ["string", "null"],
+            "description": "Standout features of the car"
+        }
+    }
+}
