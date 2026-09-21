@@ -28,3 +28,6 @@ scikit-learn
 # LlamaCpp for running local gguf models
 llama-cpp-python
 langchain-community
+
+# Pydantic for structured outputs
+pydantic
