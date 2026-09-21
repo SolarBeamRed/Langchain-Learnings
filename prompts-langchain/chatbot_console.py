@@ -13,7 +13,7 @@ chat_history = [
 
 while True:
      user_input = input('\nYOU: ')
-     chat_history.append(HumanMessage(content=user_input))
+     chat_history.append(HumanMessage(content=user_input)) # type: ignore
 
      if len(chat_history) > 4:
                chat_history = chat_history[-4:]
@@ -22,7 +22,7 @@ while True:
           break
 
      result = llm_model.invoke(chat_history)
-     chat_history.append(AIMessage(content=result.content))
+     chat_history.append(AIMessage(content=result.content)) #type: ignore
 
      print('BOT: ', result.content)
      

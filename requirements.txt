@@ -24,3 +24,7 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+# LlamaCpp for running local gguf models
+llama-cpp-python
+langchain-community
