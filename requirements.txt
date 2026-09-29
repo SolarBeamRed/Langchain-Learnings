@@ -31,3 +31,10 @@ langchain-community
 
 # Pydantic for structured outputs
 pydantic
+
+# Langchain text splitters
+langchain-text-splitters
+
+# simple pdf reader utils
+pymupdf
+faiss-cpu
