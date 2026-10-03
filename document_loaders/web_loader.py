@@ -16,4 +16,4 @@ docs = loader.load()
 content = '\n\n'.join(doc.page_content for doc in docs)
 
 result = llm.invoke(f"Tell me about this weapon's lore:\n{content}")
-print(result.content)
+print(result.content) 
