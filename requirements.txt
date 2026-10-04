@@ -39,3 +39,9 @@ langchain-text-splitters
 # simple pdf reader utils
 pymupdf
 faiss-cpu
+
+# ChromaDB
+chromadb
+
+# Wikipedia for Wikipedia retrievers
+wikipedia
