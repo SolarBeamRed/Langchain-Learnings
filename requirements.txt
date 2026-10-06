@@ -45,3 +45,6 @@ chromadb
 
 # Wikipedia for Wikipedia retrievers
 wikipedia
+
+# Youtube Transcript getter, for the practive project of YoutubeChat
+youtube-transcript-api
