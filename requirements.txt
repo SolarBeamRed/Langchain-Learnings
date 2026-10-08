@@ -48,3 +48,10 @@ wikipedia
 
 # Youtube Transcript getter, for the practive project of YoutubeChat
 youtube-transcript-api
+
+# Openrouter, cause I was just experimenting
+langchain-openrouter
+
+# Some tools 
+duckduckgo-search
+ddgs
